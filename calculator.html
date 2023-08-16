@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <form id="calculatorForm">
+            <div class="input-row">
+                <input type="number" id="leftOperand" class="input-box" placeholder="Left Operand" required>
+                <div class="operation-group">
+                    <div>
+                        <input type="radio" id="addition" name="operation" value="+" checked>
+                        <label for="addition">Addition</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="subtraction" name="operation" value="-">
+                        <label for="subtraction">Subtraction</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="multiplication" name="operation" value="*">
+                        <label for="multiplication">Multiplication</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="division" name="operation" value="/">
+                        <label for="division">Division</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="remainder" name="operation" value="%">
+                        <label for="remainder">Remainder</label>
+                    </div>
+                </div>
+                <input type="number" id="rightOperand" class="input-box" placeholder="Right Operand" required>
+            </div>
+            <button type="button" id="calculateButton">Calculate</button>
+        </form>
+    </div>
+    
+    <div class="result-box">
+        <div id="expressionOutput" class="result"></div>
+        <div id="resultOutput" class="result"></div>
+    </div>
+</body>
+</html>
