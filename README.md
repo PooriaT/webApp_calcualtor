@@ -29,7 +29,7 @@ This is a simple web application that allows users to perform basic arithmetic c
 2. **Navigate to the Project Directory:** Use the `cd` command to navigate to the project directory:
 
    ```
-   cd calculator-web-app
+   cd cwebApp_calculator
    ```
 
 3. **Run the Java Server:** Compile and run the Java server code to handle AJAX requests. Open a terminal and execute the following commands:
