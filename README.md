@@ -2,7 +2,7 @@
 
 # Calculator Web App
 
-This is a simple web application that allows users to perform basic arithmetic calculations using AJAX requests. The user interface provides input fields for operands, radio buttons to select the operation, and a "Calculate" button to trigger the calculation. The result of the calculation is displayed on the page.
+This is a simple web application that allows users to perform basic arithmetic calculations using AJAX requests.
 
 ## Technologies Used
 
@@ -12,11 +12,6 @@ This is a simple web application that allows users to perform basic arithmetic c
 - Java (Server-side)
 
 ## Features
-
-- User can enter numeric values for left and right operands.
-- User can select an arithmetic operation (addition, subtraction, multiplication, division, or remainder).
-- User can click the "Calculate" button to perform the calculation using AJAX.
-- The result of the calculation is displayed on the page.
 
 ## Installation and Setup
 
